@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EventsNDeligateBasics.DataSet">
+    <Position X="4.5" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EventsNDeligateBasics.DataSet.DataChangedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataSet.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAkAAAA=</HashCode>
+      <FileName>DataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventsNDeligateBasics.Calculator">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAACAAAAIAAQACAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
