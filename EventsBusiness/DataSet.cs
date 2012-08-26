@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace EventsNDeligateBasics
+﻿namespace EventsBusines
 {
-    public class DataSet 
+    public class DataSet
     {
         // Delegate to handle Data Change events.
         public delegate long DataChangedHandler();
 
         private int _A;
+
         public int A
         {
             get { return _A; }
@@ -22,6 +18,7 @@ namespace EventsNDeligateBasics
         }
 
         private int _B;
+
         public int B
         {
             get { return _B; }
@@ -38,10 +35,7 @@ namespace EventsNDeligateBasics
                 DataChanged();
         }
 
-
-        //Events 
+        //Events
         public event DataChangedHandler DataChanged;
-
     }
-
 }

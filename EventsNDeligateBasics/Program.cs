@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using EventsBusines;
 
 namespace EventsNDeligateBasics
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var data = new DataSet();
             data.A = 3;
@@ -15,7 +12,7 @@ namespace EventsNDeligateBasics
 
             var calculator = new Calculator(data);
 
-            data.A = 6; // This will 
+            data.A = 6; // This will
 
             // Unsubscribe from all events.
             calculator.Dispose();
